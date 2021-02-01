@@ -77,8 +77,8 @@ export class InitiateComponent implements OnInit {
       AddressLine2: [''],
       AddressLine3: [''],
 
-      NotifyUrl: ['http://localhost:4000/result', Validators.required],
-      ReturnUrl: ['http://localhost:4000/result', Validators.required],
+      NotifyUrl: ['http://0.0.0.0:4000/result', Validators.required],
+      ReturnUrl: ['http://0.0.0.0:4000/result', Validators.required],
       Target: [''],
       TicketNumber: [''],
       PNR: ['xyz', Validators.required],
