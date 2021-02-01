@@ -1,0 +1,20 @@
+version: '3'
+services:
+  client:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: "paygate:v1"
+    container_name: paygate
+    ports:
+      - "4200:4200"
+    links:
+      - server
+  server:
+    build: 
+      context: .
+      dockerfile: Dockerfile-server
+    image: "paygate-server:v1"
+    container_name: paygate-server
+    ports:
+      - "4000:4000"

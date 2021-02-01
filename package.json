@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "api": "nodemon server.js",
-    "start": "ng serve",
+    "start": "ng serve --host 0.0.0.0",
     "build": "ng build --prod",
     "test": "ng test",
     "test-ci": "TEST_CI=true ng test",
@@ -65,7 +65,7 @@
     "protractor": "^7.0.0",
     "ts-node": "^8.10.2",
     "tslint": "^6.1.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.7.5"
   },
   "browser": {
     "crypto": false
