@@ -40,7 +40,7 @@ export class InitiateComponent implements OnInit {
       REFERENCE: [this.generateReference(), Validators.required],
       AMOUNT: ['3299', Validators.required],
       CURRENCY: ['ZAR', Validators.required],
-      RETURN_URL: ['http://localhost:4000/result', Validators.required],
+      RETURN_URL: ['http://0.0.0.0:4000/result', Validators.required],
       TRANSACTION_DATE: [moment().format('YYYY-MM-DD HH:mm:ss'), Validators.required],
       LOCALE: ['en-us', Validators.required],
       COUNTRY: ['ZAF', Validators.required],
