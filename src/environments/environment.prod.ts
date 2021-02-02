@@ -9,6 +9,6 @@
 
 export const environment = {
   production: true,
-  apiURL: 'http://0.0.0.0:4000/api',
-  soapApiURL: 'http://0.0.0.0:4000'
+  apiURL: 'http://localhost:4000/api',
+  soapApiURL: 'http://localhost:4000'
 };
